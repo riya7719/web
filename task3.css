@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #d9cce8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+
+.left-section {
+    width: 55%;
+    background: linear-gradient(135deg, #6f4bb8, #9b6dd6);
+    color: white;
+    padding: 30px;
+    position: relative;
+    border-bottom-right-radius: 140px;
+    
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.menu {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.illustration {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.illustration img {
+    width: 500px;
+}
+
+.slider {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+}
+
+.right-section {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 70%;
+    text-align: center;
+}
+
+.avatar {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+    gap: 8px;
+    font-size: 13px;
+}
+
+.options .forgot {
+    text-decoration: none;
+    color: #6f4bb8;
+}
+
+.options .remember {
+    display: flex;
+    align-items: center;
+    gap: 4px;                
+    cursor: pointer;
+    color: #6f4bb8;
+    white-space: nowrap;
+}
+
+.options a {
+    text-decoration: none;
+    color: #6f4bb8;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: #6f4bb8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.signup {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.signup a {
+    color: #e93c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
